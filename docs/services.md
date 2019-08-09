@@ -997,6 +997,7 @@ See the [public documentation][183].
   - `config.language` **[Array][160]&lt;[string][151]>?** Specify the language to use for response text and, for forward geocoding, query result weighting.
      Options are [IETF language tags][186] comprised of a mandatory
      [ISO 639-1 language code][187] and optionally one or more IETF subtags for country or script.
+  - `config.routing` **[boolean][158]?** Specify whether to request additional metadata about the recommended navigation destination. Only applicable for address features.
 
 #### Examples
 

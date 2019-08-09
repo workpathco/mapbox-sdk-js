@@ -1065,6 +1065,7 @@ See the [public documentation][188].
      Options are [IETF language tags][186] comprised of a mandatory
      [ISO 639-1 language code][187] and optionally one or more IETF subtags for country or script.
   - `config.reverseMode` **(`"distance"` \| `"score"`)** Set the factors that are used to sort nearby results. (optional, default `'distance'`)
+  - `config.routing` **[boolean][158]?** Specify whether to request additional metadata about the recommended navigation destination. Only applicable for address features.
 
 #### Examples
 
